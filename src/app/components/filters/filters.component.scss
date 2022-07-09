@@ -1,0 +1,15 @@
+.filters {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  &__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__input {
+    margin: 8px;
+  }
+}

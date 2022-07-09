@@ -1,0 +1,9 @@
+<section class="filters">
+    {{ pagName}}
+    <form class="filters__container">
+        <mat-form-field class="filters__input" appearance="outline">
+            <mat-label>Nome</mat-label>
+            <input type="text" matInput [formControl]="searchInput" placeholder="Ex. Ivy">
+        </mat-form-field>
+    </form>
+</section>

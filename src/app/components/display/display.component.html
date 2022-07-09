@@ -1,0 +1,12 @@
+<section class="display">
+
+    <ng-container *ngFor="let pokemon of pokeList">
+
+        <div class="card">
+            <img [src]="pokemon.sprites.front_default" alt="">
+            <p>{{pokemon.name}}</p>
+        </div>
+    </ng-container>
+
+
+</section>
